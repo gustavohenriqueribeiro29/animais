@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cantinho dos Pets - Blog</title>
+  <!-- Google Fonts para fontes atrativas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Link para o CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo">🐾 Cantinho dos Pets</h1>
+      <button id="theme-toggle" class="btn-theme" aria-label="Alternar modo claro e escuro">
+        🌙 Modo Escuro
+      </button>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <article class="post-card">
+      <header class="post-header">
+        <span class="badge">Dicas de Cuidados</span>
+        <h2 class="post-title">Como Cuidar da Saúde e Bem-Estar do seu Cão no Dia a Dia</h2>
+        <div class="post-meta">
+          <span>Por <strong>Gustavo</strong></span> • 
+          <time datetime="2023-10-25">Publicado recentemente</time>
+        </div>
+      </header>
+
+      <div class="post-image-container">
+        <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1000&q=80" alt="Cão feliz ao ar livre" class="post-image">
+      </div>
+
+      <div class="post-content">
+        <p>Os animais domésticos trazem alegria e companheirismo para nossas vidas, mas também exigem responsabilidade. Manter uma rotina saudável para o seu pet garante uma vida longa e feliz ao seu lado.</p>
+        
+        <h3>3 Pilares Fundamentais:</h3>
+        <ul>
+          <li><strong>Alimentação Balanceada:</strong> Ofereça ração de boa qualidade adequada à idade e ao porte do seu animal.</li>
+          <li><strong>Exercícios Físicos:</strong> Passeios diários ajudam a gastar energia e evitam o estresse em cães.</li>
+          <li><strong>Visitas ao Veterinário:</strong> Mantenha a vacinação e a vermifugação sempre em dia.</li>
+        </ul>
+        <p>Gatos e outros pequenos pets também precisam de enriquecimento ambiental, como brinquedos e arranhadores, para exercitar seus instintos naturais dentro de casa.</p>
+      </div>
+
+      <!-- Ações do Post (Botão Curtir) -->
+      <div class="post-actions">
+        <button id="like-btn" class="btn-like">
+          <span class="heart-icon">❤️</span> 
+          <span id="like-text">Curtir</span> 
+          (<span id="like-count">0</span>)
+        </button>
+      </div>
+
+      <!-- Fontes e Referências -->
+      <footer class="post-references">
+        <h4>📚 Fontes e Sites de Pesquisa</h4>
+        <ul>
+          <li>
+            <a href="https://www.petz.com.br/blog/" target="_blank" rel="noopener noreferrer">Blog Petz - Dicas de Saúde Animal</a>
+          </li>
+          <li>
+            <a href="https://www.cobasi.com.br/posts/" target="_blank" rel="noopener noreferrer">Blog Cobasi - Guia de Cuidados Pet</a>
+          </li>
+          <li>
+            <a href="https://www.peritoanimal.com.br/" target="_blank" rel="noopener noreferrer">PeritoAnimal - Artigos sobre Comportamento Pet</a>
+          </li>
+        </ul>
+      </footer>
+    </article>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; Blog Cantinho dos Pets. Criado com carinho por <strong>Gustavo</strong>.</p>
+    </div>
+  </footer>
+
+  <!-- Link para o JS externo -->
+  <script src="script.js"></script>
+</body>
+</html>
